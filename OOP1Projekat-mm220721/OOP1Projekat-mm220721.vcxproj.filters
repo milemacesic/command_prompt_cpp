@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Abstract Classes">
+      <UniqueIdentifier>{9f0044ee-28f9-49aa-90d0-3b1136579896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Derived Command Classes">
+      <UniqueIdentifier>{aff42afb-837b-46fb-a11e-c5439dbf7cbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Derived Command Classes">
+      <UniqueIdentifier>{81804d43-1c42-498e-a622-c8817644263d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Derived Parse Classes">
+      <UniqueIdentifier>{07eadf19-4443-4571-9b4b-541f3e2e39ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Derived Parse Classes">
+      <UniqueIdentifier>{e073bb95-c329-429c-9976-97fd1fe5ed96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Derived ParseArg Classes">
+      <UniqueIdentifier>{5af3be4f-b6bf-4762-bbce-0a7f80f73049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Derived ParseArg Classes">
+      <UniqueIdentifier>{621b62e4-b668-4eaf-9ad9-90e260283069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Derived ParseOptArg Classes">
+      <UniqueIdentifier>{a2a277d3-c6d9-46fd-8ded-cf7ce86e2c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Derived ParseOptArg Classes">
+      <UniqueIdentifier>{a08beb51-472c-4626-a9ac-c449a779dede}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpreter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Header Files\Abstract Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Echo.h">
+      <Filter>Header Files\Derived Command Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Parse.h">
+      <Filter>Header Files\Abstract Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>Header Files\Derived Command Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Header Files\Derived Command Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Touch.h">
+      <Filter>Header Files\Derived Command Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="WC.h">
+      <Filter>Header Files\Derived Command Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseArg.h">
+      <Filter>Header Files\Derived Parse Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseBasic.h">
+      <Filter>Header Files\Derived Parse Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseOptArg.h">
+      <Filter>Header Files\Derived Parse Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Truncate.h">
+      <Filter>Header Files\Derived Command Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="RM.h">
+      <Filter>Header Files\Derived Command Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt.h">
+      <Filter>Header Files\Derived Command Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseArgOpt.h">
+      <Filter>Header Files\Derived Parse Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Batch.h">
+      <Filter>Header Files\Derived Command Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Head.h">
+      <Filter>Header Files\Derived Command Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="TR.h">
+      <Filter>Header Files\Derived Command Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseBatch.h">
+      <Filter>Header Files\Derived ParseArg Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseCommandWithFile.h">
+      <Filter>Header Files\Derived ParseArg Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseEcho.h">
+      <Filter>Header Files\Derived ParseArg Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ParsePrompt.h">
+      <Filter>Header Files\Derived ParseArg Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseHead.h">
+      <Filter>Header Files\Derived ParseOptArg Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseWC.h">
+      <Filter>Header Files\Derived ParseOptArg Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OOP1Projekat-mm220721.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpreter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Echo.cpp">
+      <Filter>Source Files\Derived Command Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Date.cpp">
+      <Filter>Source Files\Derived Command Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseArg.cpp">
+      <Filter>Source Files\Derived Parse Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseBasic.cpp">
+      <Filter>Source Files\Derived Parse Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseOptArg.cpp">
+      <Filter>Source Files\Derived Parse Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Source Files\Derived Command Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Touch.cpp">
+      <Filter>Source Files\Derived Command Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="WC.cpp">
+      <Filter>Source Files\Derived Command Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Truncate.cpp">
+      <Filter>Source Files\Derived Command Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="RM.cpp">
+      <Filter>Source Files\Derived Command Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt.cpp">
+      <Filter>Source Files\Derived Command Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseArgOpt.cpp">
+      <Filter>Source Files\Derived Parse Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Batch.cpp">
+      <Filter>Source Files\Derived Command Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Head.cpp">
+      <Filter>Source Files\Derived Command Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="TR.cpp">
+      <Filter>Source Files\Derived Command Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseBatch.cpp">
+      <Filter>Source Files\Derived ParseArg Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseCommandWithFile.cpp">
+      <Filter>Source Files\Derived ParseArg Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseEcho.cpp">
+      <Filter>Source Files\Derived ParseArg Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ParsePrompt.cpp">
+      <Filter>Source Files\Derived ParseArg Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseHead.cpp">
+      <Filter>Source Files\Derived ParseOptArg Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseWC.cpp">
+      <Filter>Source Files\Derived ParseOptArg Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
