@@ -1,3 +1,0 @@
-prompt "#"
-batch cmd_commands.txt
-time
